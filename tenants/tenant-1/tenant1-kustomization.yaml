@@ -5,7 +5,7 @@ metadata:
   namespace: apps
 spec:
   interval: 5m0s
-  path: ./
+  path: ./sample-app-1
   prune: true
   serviceAccountName: tenant1
   sourceRef:
