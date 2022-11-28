@@ -6,3 +6,4 @@ resources:
 - tenant1-reconciler-rb.yaml
 - tenant1-git-repository.yaml
 - tenant1-kustomization.yaml
+namePrefix: dev
