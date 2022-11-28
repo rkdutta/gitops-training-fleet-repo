@@ -25,5 +25,5 @@ spec:
   serviceAccountName: tenant-sample-app-1
   sourceRef:
     kind: GitRepository
-    name: tenant-sample-app-1
+    name: tenant-sample-app-1-dev
   validation: client
