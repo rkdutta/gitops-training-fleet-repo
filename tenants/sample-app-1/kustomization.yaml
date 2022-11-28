@@ -5,4 +5,3 @@ resources:
 - service-account.yaml
 - permissions.yaml
 - sync.yaml
-namePrefix: dev-
