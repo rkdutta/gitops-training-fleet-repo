@@ -8,8 +8,8 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  secretRef:
-    name: tenant-sample-app-1
+  # secretRef:
+  #   name: tenant-sample-app-1
   url: https://github.com/rkdutta/gitops-training-tenant-repo
 
 ---
