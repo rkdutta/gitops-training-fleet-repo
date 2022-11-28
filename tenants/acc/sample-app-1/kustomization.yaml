@@ -5,5 +5,5 @@ resources:
 - service-account.yaml
 - permissions.yaml
 - sync.yaml
-nameSuffix: -dev
-namespace: tenant-sample-app-1-dev
+#nameSuffix: -dev
+namespace: sample-app-1

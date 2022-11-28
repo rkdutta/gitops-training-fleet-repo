@@ -1,10 +1,9 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  labels:
-    toolkit.fluxcd.io/tenant: tenant1
-  name: tenant1-reconciler
-  namespace: apps
+  # labels:
+  #   toolkit.fluxcd.io/tenant: tenant1
+  name: sample-app-1-reconciler
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -14,4 +13,4 @@ subjects:
   kind: User
   name: gotk:apps:reconciler
 - kind: ServiceAccount
-  name: tenant1
+  name: sample-app-1
