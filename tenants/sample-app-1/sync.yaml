@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: tenant-sample-app-1
-  namespace: sample-app-1
+  namespace: tenant-sample-app-1
 spec:
   interval: 1m0s
   ref:
