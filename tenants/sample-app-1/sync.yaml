@@ -17,7 +17,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
   name: tenant-sample-app-1
-  namespace: sample-app-1
+  namespace: tenant-sample-app-1
 spec:
   interval: 5m0s
   path: ./sample-app-1

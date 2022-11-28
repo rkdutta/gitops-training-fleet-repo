@@ -4,7 +4,7 @@ metadata:
   labels:
     toolkit.fluxcd.io/tenant: tenant1
   name: tenant-sample-app-1-reconciler
-  namespace: apps
+  namespace: tenant-sample-app-1
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
