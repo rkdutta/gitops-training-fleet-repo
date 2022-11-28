@@ -1,8 +1,8 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  labels:
-    toolkit.fluxcd.io/tenant: tenant1
+  # labels:
+  #   toolkit.fluxcd.io/tenant: tenant1
   name: tenant-sample-app-1-reconciler
   namespace: tenant-sample-app-1
 roleRef:
