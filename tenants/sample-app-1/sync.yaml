@@ -2,28 +2,28 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: tenant1
+  name: tenant-sample-app-1
   namespace: apps
 spec:
   interval: 1m0s
   ref:
     branch: main
   secretRef:
-    name: tenant1
+    name: tenant-sample-app-1
   url: https://github.com/rkdutta/gitops-training-tenant-repo
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: tenant1
+  name: tenant-sample-app-1
   namespace: apps
 spec:
   interval: 5m0s
   path: ./sample-app-1
   prune: true
-  serviceAccountName: tenant1
+  serviceAccountName: tenant-sample-app-1
   sourceRef:
     kind: GitRepository
-    name: tenant1
+    name: tenant-sample-app-1
   validation: client
