@@ -20,7 +20,7 @@ metadata:
   namespace: tenant-sample-app-1
 spec:
   interval: 5m0s
-  path: ./sample-app-1/dev
+  path: ./sample-app-2/dev
   prune: true
   serviceAccountName: tenant-sample-app-1
   sourceRef:
